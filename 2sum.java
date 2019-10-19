@@ -18,7 +18,7 @@ public class Main {
 		    {
 		    	 ListNode dummy = new ListNode(0);
 		    	 int carry = 0;
-		    	 ListNode p = l1, q= l2, curr = dummy;
+		    	 ListNode p = l1, q= l2, curr = dummy; // we can manipulate dummy without actually using it
 		    	 
 		    	while(p!=null || q!= null) //Constantly updating x & y so need to check if list is empty
 		    	{ 
